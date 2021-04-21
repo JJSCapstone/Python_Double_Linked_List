@@ -50,21 +50,21 @@ In this assignment, students would be tasked with creating a doubly linked list,
                     
 
 ## Tests Run:
-  test_node_str()\
-  test_node_equals()\
-  test_node_update()\
-  test_dll_add()\
-  test_dll_add_head()\
-  test_ddl_add_tail()\
-  test_dll_string()\
-  test_remove_data()\
-  test_remove_position()\
-  test_query_position()\
-  test_find_data()\
-  test_update_position()\
-  test_len()\
+     test_node_str()
+     test_node_equals()
+     test_node_update()
+     test_dll_add()
+     test_dll_add_head()
+     test_ddl_add_tail()
+     test_dll_string()
+     test_remove_data()
+     test_remove_position()
+     test_query_position()
+     test_find_data()
+     test_update_position()
+     test_len()
   
 ## Required Command for Autograding:
-    pytest [path/to/test]/[test_name].py -k ‘[method_name]’\
-    e.x.
-    pytest ./tests/dll_tests.py -k 'test_node_str'
+     pytest [path/to/test]/[test_name].py -k ‘[method_name]’
+     e.x.
+     pytest ./tests/dll_tests.py -k 'test_node_str'
